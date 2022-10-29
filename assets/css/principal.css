@@ -1,0 +1,84 @@
+table{
+    border: 3px solid #831e79;   
+}
+
+.margen{
+    margin-left: auto;
+    margin-right: auto;    
+    margin-top: 20px;
+}
+th, td {
+    border: 2px solid #831e79;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 1.5rem;
+}
+.col1{    
+    width: 230px;
+}
+.col2{    
+    width: 100px;
+}
+.espacio{
+    width: 68.067;
+}
+
+.nuevo {
+    background-color: #34ca6e;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: white;
+    color: #34ca6e;
+    border: 2px solid #34ca6e;    
+}
+
+.editar {
+    background-color: #0f22d2;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: white;
+    color: #0f22d2;
+    border: 2px solid #0f22d2;    
+}
+
+.cancelar {
+    background-color: #d8242a;
+    border: none;
+    color: white;
+    padding: 5px 10px;    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button3:hover {
+    background-color: white;
+    color: #d8242a;
+    border: 2px solid #d8242a;    
+}
+
+.separador{    
+    margin-right: 10px;
+}

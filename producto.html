@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Datos</title>
+    <link rel="stylesheet" href="assets/css/formulario.css">
+</head>
+<body>
+    <form action="mensaje.html" method="post">
+        <fieldset>
+            <legend>Registro de producto</legend>
+            <table>
+                <tr>
+                    <td>Codigó:</td>
+                    <td>
+                        <input type="number" name="codigo" id="codigo">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Descripción:</td>
+                    <td>
+                        <input type="text" name="descripcion" id="descripcion">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Código de Barra:</td>
+                    <td>                            
+                        <input type="number" name="barra" id="barra">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Precio Unitario:</td>
+                    <td>
+                        <input type="number" name="unitario" id="unitario">
+                    </td>                        
+                </tr>
+                <tr>
+                    <td>Stock:</td>
+                    <td>
+                        <input type="number" name="stock" id="stock">
+                    </td>                        
+                </tr>
+                <tr>
+                    <td>Proveedor:</td>
+                    <td>                            
+                        <input type="text" name="proveedor" id="proveedor">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Estado:</td>
+                    <td class="ubicacion">
+                        <input type="checkbox" name="estado" id="estado" value="activo">Activo                            
+                    </td>
+                </tr>
+                <tr>
+                    <td>Categoría:</td>
+                    <td class="ubicacion">
+                        <select name="categoria" id="categoria">
+                            <option value="Categoría 1">Categoría 1</option>
+                            <option value="Categoría 2">Categoría 2</option>
+                            <option value="Categoría 3">Categoría 3</option>
+                            <option value="Categoría 4">Categoría 4</option>
+                        </select>
+                    </td>
+                </tr>                
+            </table> 
+            <br> 
+            <input class="guardar" type="submit" id="btn" name="btn" value="Guardar">
+            <a class="cancelar" href="index.html" target="_self">Cancelar</a>              
+        </fieldset>
+    </form>        
+</body>
+</html>

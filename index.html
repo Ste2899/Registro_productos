@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/09c5a45c71.js" crossorigin="anonymous"></script>
+    <title>Table de Productos</title>    
+    <link rel="stylesheet" href="assets/css/principal.css">    
+</head>
+<body>
+    <table class="margen"> 
+        <thead><!--Encabezado de la tabla-->   
+            <tr>           
+                <th class="col1">
+                    <a class="nuevo button1" href="producto.html" target="_self">
+                        <i class="fa-solid fa-plus separador"></i>
+                        </i>Nuevo
+                    </a>
+                </th>
+                <th>Código</th>
+                <th>Descripción</th>
+                <th>Código de Barra</th>
+                <th class="col2">Precio unitario</th>
+                <th>Stock</th>
+                <th>Proveedor</th>
+                <th>Estado</th>
+                <th>Categoría</th>
+            </tr> 
+        </thead> 
+        <tbody><!--Cuerpo de la tabla-->     
+            <tr>                
+                <td>
+                    <button class="editar button2">
+                        <i class="fa-solid fa-pen-to-square separador"></i>Editar
+                    </button>
+                    <button class="cancelar button3">
+                        <i class="fa-sharp fa-solid fa-trash separador"></i>Eliminar
+                    </button>                    
+                </td>                              
+                <td>1</td>
+                <td>Martillo</td>
+                <td>101253151489</td>
+                <td>2.50</td>
+                <td>10</td>
+                <td>Proveedor 1</td>
+                <td>Si</td>
+                <td>Herramientas</td>        
+            </tr>
+            <tr>
+                <td>
+                    <button class="editar button2">
+                        <i class="fa-solid fa-pen-to-square separador"></i>Editar
+                    </button>
+                    <button class="cancelar button3">
+                        <i class="fa-sharp fa-solid fa-trash separador"></i>Eliminar
+                    </button>                                    
+                </td>
+                <td>2</td>
+                <td>Kit de herramientas</td>
+                <td>258981235849</td>
+                <td>10.50</td>
+                <td>20</td>
+                <td>Proveedor 2</td>
+                <td>Si</td>
+                <td>Herramientas</td>        
+            </tr> 
+        </tbody>             
+    </table>
+</body>
+</html>
